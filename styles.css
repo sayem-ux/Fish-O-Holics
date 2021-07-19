@@ -8,6 +8,13 @@ body {
 }
 /*Global classes, variables */
 
+.dark{
+    padding:15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .button_1{
     height: 40px;
     background: #e8491d;
@@ -126,6 +133,29 @@ header a:hover{
     padding: 10px;
 }
 
-#boxes .box img{
-    width: ;
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top:10px; 
 }
+
+article#main-col{
+    float:left;
+    width: 65%;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #e8491d;
+}
+
+#seafood{
+    width:300px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow:  0 0 20px rgb(91, 54, 105);
+}
+
