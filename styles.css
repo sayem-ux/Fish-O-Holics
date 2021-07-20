@@ -152,10 +152,19 @@ footer{
     background-color: #e8491d;
 }
 
-#seafood{
-    width:300px;
-    border-collapse: collapse;
-    overflow: hidden;
-    box-shadow:  0 0 20px rgb(91, 54, 105);
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+    text-align: center;
 }
+
+ul#services table{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 
