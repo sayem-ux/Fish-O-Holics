@@ -7,7 +7,16 @@ body {
     margin:0;
     background-color: #f4f4f4;   
 }
+
 /*Global classes, variables */
+
+/*
+.sticky {
+    
+    make the nav bar sticky (fixed)
+    https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+}
+ */
 
 .light-blue{
     padding:15px;
@@ -180,7 +189,8 @@ ul#services li{
 ul#services table{
     margin-left: auto;
     margin-right: auto;
-
+    display: inline-block;
+    padding: 80px;
 }
 
 
