@@ -18,7 +18,7 @@ body {
 }
  */
 
-.light-blue{
+.light{
     padding:15px;
     background: #e8491d;
     color: #ffffff;
@@ -46,7 +46,7 @@ body {
 
 
 .container{
-    width: 80%;
+    width: 90%;
     margin: auto;
     overflow:hidden;
 }
@@ -177,6 +177,18 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
     padding: 5px;
 }
 
+aside#legend{
+    margin-left: 70%;
+}
+
+
+.rectangle{
+    width:50px;
+    height: 10px;
+    background-color: yellow;
+}
+
+
 ul#services li{
     list-style: none;
     padding: 20px;
@@ -190,7 +202,7 @@ ul#services table{
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
-    padding: 80px;
+    padding: 20px;
 }
 
 
@@ -225,3 +237,5 @@ ul#services table{
     }
 
 }
+
+/*Animations */
