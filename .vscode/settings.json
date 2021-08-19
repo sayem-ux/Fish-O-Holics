@@ -2,5 +2,6 @@
     "cSpell.ignoreWords": [
         "firstname",
         "lastname"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
