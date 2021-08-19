@@ -4,7 +4,9 @@ function myFunction()
     const nameVal = name[2].value;
     
     if (nameVal != "") 
-    document.getElementById("result").innerHTML= nameVal + ", you will be notified in 7-12 business days.";
+    {
+        document.getElementById("result").innerHTML= nameVal + ", you will be notified in 7-12 business days.";
+    }
     
 } 
 
