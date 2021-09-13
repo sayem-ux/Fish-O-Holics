@@ -52,6 +52,11 @@ body {
     overflow:hidden;
 }
 
+.container-marquee{
+    width: 100%;
+    overflow: hidden;
+}
+
 ul{
     margin:0;
     padding:0;
@@ -66,13 +71,19 @@ header{
     border-bottom:#e8491d 4px solid;
 }
 
-header a{
+header a {
     color:#ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
 }
 
+.para a {
+    color: #e8491d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
 
 header li{
     float:left;
@@ -106,6 +117,16 @@ header .highlight, header .current a{
 header a:hover{
     color: #cccccc;
     font-weight: bold;
+}
+
+.para{
+    color: #e8491d;
+    font-weight:bold;
+    white-space: nowrap;
+    clear: both;
+    float: left;
+    font-size: 16px;
+
 }
 
 #cover{
@@ -222,6 +243,7 @@ ul#services table{
     #boxes .box,
     article#main-col,
     aside#sidebar
+    .para
     {
         float:none;
         text-align: center;
