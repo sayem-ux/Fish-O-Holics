@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
       <title>Fish O Holics | Home</title>
       <link rel="stylesheet" href="styles.css" type="text/css" /> 
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet">
     </head>
     <body>
       <header>
@@ -14,13 +16,18 @@
          </div>
          <nav>
            <ul>
-             <li class="current"><a href="index.html">Home</a></li>
-             <li><a href="about.html">About</a></li>
-             <li><a href="services.html">Services</a></li>
+             <li class="current"><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+             <li><a href="about.html"><i class="fas fa-users"></i>About</a></li>
+             <li><a href="services.html"><i class="fas fa-tags"></i>Services</a></li>
            </ul>
          </nav>
        </div>
       </header>
+      <div class="container-marquee">
+        <p class="para" id="para1">FREE SHIPPING on orders of $100 or more! | Limited TIME | 
+          Offer Expires Soon! | Check out our latest deals on the services page! | 
+              <a href="services.html"><i class="fas fa-tags"></i>Services</a><i class="fas fa-tags"></i></p>
+      </div>
       <section id="cover">
         <div class="container">
           <h1>Fishing Season has Begun!</h1>
@@ -34,6 +41,7 @@
             <input type="email" placeholder="Add Email">
             <input class="button_1" type="submit" value="Subscribe">
           </form>
+          <p style="text-align: center" id="result"></p>
         </div>
       </section>
       <section id="boxes">
@@ -59,6 +67,9 @@
       <footer>
         <p>Fish-O-Holics, Copyright &copy;</p>
       </footer>
+      <script src="main.js"></script>
+      <script src="marquee.js"></script>
     </body>
 </html>
    
+
