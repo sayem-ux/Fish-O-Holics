@@ -57,6 +57,17 @@ body {
     overflow: hidden;
 }
 
+.rounded-corners{
+    border-radius: 25px;
+    background: #e8491d;
+    color:#ffffff;
+    padding: 10px;
+    width:45%;
+    margin: auto;
+    
+
+}
+
 ul{
     margin:0;
     padding:0;
@@ -243,11 +254,11 @@ ul#services table{
     #boxes .box,
     article#main-col,
     aside#sidebar
-    .para
     {
         float:none;
         text-align: center;
         width: 100%;
+        
     }
 
     header {
