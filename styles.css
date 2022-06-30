@@ -142,7 +142,7 @@ header a:hover{
 
 #cover{
     min-height: 450px;
-    background:url('./images/cover.jpg') no-repeat 0 -90px ;
+    background:url('./images/cover-resized.jpg') no-repeat 0 -90px ;
     text-align:center ;
     color: #e8491d;
 }
