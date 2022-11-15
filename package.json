@@ -1,5 +1,5 @@
 {
-  "name": "@sayem-ux/Fish-O-Holics",
+  "name": "@sayem-ux/matomo",
   "version": "1.0.0",
   "description": "This code is used for tracking each page of the website. Add this to each page to gather analytics. Add in the head tag within a script tag.",
   "main": "matomo.js",
